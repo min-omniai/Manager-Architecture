@@ -119,11 +119,11 @@ Assets/
 
 | 순서 | 주제 |
 |------|------|
-| 01 | 메모리 영역 이해하기 (static / Stack / Heap / GC) |
-| 02 | Object와 Instance (class / new / 참조) |
-| 03 | MonoBehaviour와 Unity 생명주기 |
-| 04 | static과 Singleton |
-| 05 | Managers 구조와 책임 분리 |
+| 01 | [메모리 영역 이해하기 (static / Stack / Heap / GC)](https://share.note.sx/tjkc263t#AsFsPSIkm2puyLz64KkO1QxRUKnTW0AqVDlXS4AtBkg) |
+| 02 | [Object와 Instance (class / new / 참조)](https://share.note.sx/2k0rgz9r#g4pq0eQPbKeSAJXqtI3xDoC0ODXYt/hKaDGUnswbPnU) |
+| 03 | [MonoBehaviour와 Unity 생명주기](https://share.note.sx/u1r1s0f8#OZkmRTF2CdnHg/KPbptvA1/0MeOBf7Y1o70Atv4yhIE) |
+| 04 | [static과 Singleton](https://share.note.sx/ciy3jueo#jLqi91WM9zQpk7o4Kc6hK08GoiTmxC9eB193fje5RXw) |
+| 05 | [Managers 구조와 책임 분리](https://share.note.sx/h2fekr0r#Y4ihpy58Dsi5E+/FebScv93FvpUXF//9sb7g1hvTksM) |
 
 ---
 
