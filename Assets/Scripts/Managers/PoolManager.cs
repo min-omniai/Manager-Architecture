@@ -62,12 +62,17 @@ public class PoolManager : ISubManager
         _root = new GameObject { name = "@PoolRoot" }.transform;
         Object.DontDestroyOnLoad(_root);
 
-        for (int i = 0; i < 5; i++)
-            CreatePool(Resources.Load<GameObject>($"Characters/PoolTest_{i}"));   
+        CreatePool(Resources.Load<GameObject>("Characters/Cube"));
+        CreatePool(Resources.Load<GameObject>("Characters/Sphere"));
+        CreatePool(Resources.Load<GameObject>("Characters/Capsule"));
     }
 
     public void CreatePool(GameObject original, int count = 5)
     {
+        // 이미 있으면 스킵
+        if (_pool.ContainsKey(original.name))
+            return;  
+
         Pool pool = new Pool();
         pool.Init(original, count);
         pool.Root.SetParent(_root);
